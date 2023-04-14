@@ -85,7 +85,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Cul_de_Ampolla`.`Recomendado` (
   `id_recomendado` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `opcion` ENUM('si', 'no') NULL,
+  `id_cliente` INT UNSIGNED NOT NULL,
   PRIMARY KEY (`id_recomendado`))
 ENGINE = InnoDB;
 
